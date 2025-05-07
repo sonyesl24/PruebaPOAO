@@ -1,5 +1,6 @@
 from FiguraGeometrica import FiguraGeometrica
-Deberclass Rectangulo(FiguraGeometrica):
+
+class Rectangulo(FiguraGeometrica):
     def __init__(self, alto=0, ancho=0):
         super().__init__(alto, ancho)
 
